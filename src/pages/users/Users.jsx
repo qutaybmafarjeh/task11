@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Users() {
 
   const getUsers = async()=>{
-    const response = await axios.get('http://ums12.runasp.net/api/users');
+    const response = await axios.get('https://ums12.runasp.net/api/users');
     return response.data;
   }
 
